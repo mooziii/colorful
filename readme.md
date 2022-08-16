@@ -2,6 +2,8 @@
 
 Simple paper plugin that allows players to use minimessage based text-inputs
 
+![img](https://i.imgur.com/ALc28mg.png)
+
 ## Default Configuration
 
 The config is located at `config/colorful-config.yml`
