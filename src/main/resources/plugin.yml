@@ -2,5 +2,5 @@ name: Colorful
 author: mooziii
 main: me.obsilabor.colorful.ColorfulPlugin
 description: Allows players to use minimessage based text-inputs
-version: 1.0.0+mc1.19.1
+version: 1.0.1+mc1.19.2
 api-version: 1.19

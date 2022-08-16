@@ -1,14 +1,14 @@
 plugins {
-    id("io.papermc.paperweight.userdev") version "1.3.8"
+    id("io.papermc.paperweight.userdev") version "1.3.9-SNAPSHOT"
     id("xyz.jpenilla.run-paper") version "1.0.6"
     id("java")
 }
 
 group = "me.obsilabor"
-version = "1.0.0+mc.1.19.1"
+version = "1.0.1+mc.1.19.2"
 
 dependencies {
-    paperDevBundle("1.19.1-R0.1-SNAPSHOT")
+    paperDevBundle("1.19.2-R0.1-SNAPSHOT")
 }
 
 tasks {
