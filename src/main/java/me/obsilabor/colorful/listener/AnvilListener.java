@@ -14,6 +14,9 @@ public class AnvilListener implements Listener {
             return;
         }
         var meta = result.getItemMeta();
+        if (meta == null) {
+            return;
+        }
         meta.displayName(ColorfulPlugin.MINI_MESSAGE.deserialize(PlainTextComponentSerializer.plainText().serialize(meta.displayName())));
         result.setItemMeta(meta);
     }
